@@ -5,14 +5,16 @@
 
 Welcome to molecool's documentation!
 =========================================================
+molecool is a Python package for analyzing and visualizing molecular data. 
+The file format supported are `xyz` and `pdb`.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   about
    getting_started
    api
-
 
 
 Indices and tables
