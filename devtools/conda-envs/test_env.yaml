@@ -18,4 +18,5 @@ dependencies:
   - pip:
     - codecov
     - numpy
+    - matplotlib
 
