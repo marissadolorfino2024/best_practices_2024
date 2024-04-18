@@ -26,10 +26,6 @@ jobs:
         # could specify versions here like
         # numpy-version: [1.14,2.0]
     steps:
-      - uses: mscoutermarsh/ascii-art-action@master
-        with:
-          text: 'testing ascii art!'
-
       - uses: actions/checkout@v3
 
       - name: Additional info about the build
