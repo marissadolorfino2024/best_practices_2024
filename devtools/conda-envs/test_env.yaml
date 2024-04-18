@@ -9,6 +9,8 @@ dependencies:
   - python
   - pip
 
+  # could add the python packages here too instead of in pip-only installs
+
     # Testing
   - pytest
   - pytest-cov
