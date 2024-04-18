@@ -24,6 +24,9 @@ def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
     bonds: dict
         A dictionary containing bonded atoms with atom pairs as keys and the distance between the atoms as the value.
     """
+    
+    if min_bond < 0:
+        raise ValueError(f"Minimum bond length can't be less than 0.")
 
     # Find the bonds in a molecule (set of coordinates) based on distance criteria.
     bonds = {}
