@@ -23,7 +23,8 @@ jobs:
       matrix:
         os: [macOS-latest, ubuntu-latest, windows-latest]
         python-version: [3.8, 3.9, "3.10"]
-
+        # could specify versions here like
+        # numpy-version: [1.14,2.0]
     steps:
       - uses: actions/checkout@v3
 
